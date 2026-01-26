@@ -4,6 +4,12 @@ Aquesta guia descriu els passos necessaris per aixecar un clúster de Kubernetes
 
 **Objectiu final:** Tenir el node Master i els nodes Workers connectats i en estat **`Ready`**.
 
+---
+
+## 1. Preparació de l'Entorn (TOTS els nodes)
+
+**Aquests passos s'han d'aplicar tant a la màquina MASTER com als WORKERS.**
+
 Seguirem la guia de referència de [ComputingForGeeks](https://computingforgeeks.com/deploy-kubernetes-cluster-on-ubuntu-with-kubeadm/), però amb les següents **modificacions importants**:
 
 1.  **Sistema Base:** Realitza els **passos 1, 2 i 3** de la guia (actualització, desactivar swap, hostname, mòduls del kernel).
